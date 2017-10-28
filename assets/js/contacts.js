@@ -39,9 +39,11 @@ function submitForm(e, formName) {
     message: message
   };
 
+  console.log(formData);
+
   $.ajax({
     type: 'POST',
-    url: 'mail.php',
+    url: 'https://drkormos-hu-mail.herokuapp.com',
     data: formData,
     success: () => console.log('success'),
     error: (err) => console.error('error', err)
