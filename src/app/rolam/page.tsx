@@ -3,6 +3,8 @@ import Footer from '@/app/(components)/Footer';
 import { ContactForm } from '@/app/rolam/(components)/ContactForm';
 import Image from 'next/image';
 
+export const runtime = 'edge';
+
 export default function About() {
   return (
     <>
