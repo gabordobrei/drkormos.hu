@@ -2,7 +2,7 @@ import Header from '@/app/(components)/Header';
 import Footer from '@/app/(components)/Footer';
 import Image from 'next/image';
 import { ContactForm } from '@/app/kapcsolat/(components)/ContactForm';
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
+import { ClockIcon, BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 export const runtime = 'edge';
 
@@ -48,16 +48,27 @@ function Map() {
               Amennyiben jogi segítségre van szüksége, várom mielőbbi megkeresését a megadott elérhetőségeken!
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
-              <div className="flex gap-x-4">
-                <dt className="flex-none">
-                  <span className="sr-only">Address</span>
-                  <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
-                </dt>
-                <dd>
-                  Váci út 28. félem. 2.,
-                  <br />
-                  Budapest, 1132
-                </dd>
+              <div>
+                <div className="flex gap-x-4">
+                  <dt className="flex-none">
+                    <span className="sr-only">Address</span>
+                    <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                  </dt>
+                  <dd>
+                    Váci út 28. félem. 2.,
+                    <br />
+                    Budapest, 1132
+                  </dd>
+                  <dt className="flex-none">
+                    <span className="sr-only">Address</span>
+                    <ClockIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                  </dt>
+                  <dd>
+                    H-P: 8-16
+                    <br />
+                    Sz-V: zárva
+                  </dd>
+                </div>
               </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">

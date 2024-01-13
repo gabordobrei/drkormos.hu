@@ -8,7 +8,7 @@ export function ContactForm() {
 
   return (
     <div className="relative isolate bg-white">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 py-20 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 sm:pt-32 lg:static lg:px-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <div
