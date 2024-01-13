@@ -137,7 +137,7 @@ function Testimonies() {
             „Régóta ismerem Zsuzsannát, így nem volt kérdés, hogy Őt kérjük fel ügyvédünknek ingatlan vétel okán. Kb. 3
             évig tartott, míg megtaláltuk az igazit és ez idő alatt sok-sok alkalommal rugalmasan, türelmesen, profi
             szakértelemmel állt rendelkezésünkre. Végül 2021 nyarán sikerült beleszeretnünk a létező legproblémásabb
-            "családi házba".
+            &quot;családi házba&quot;.
           </p>
           <p>
             Tájékoztatott minket, hogy hosszú, bonyolult, de nem lehetetlen menet lesz. Mindig minden lépést alaposan
