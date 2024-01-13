@@ -10,7 +10,7 @@ import Link from 'next/link';
 const navigation = [
   { name: 'Rólam', href: '/rolam' },
   { name: 'Szakterületek', href: '/rolam' },
-  { name: 'Kapcsolat', href: '/rolam' }
+  { name: 'Kapcsolat', href: '/kapcsolat' }
 ];
 
 export default function Header() {

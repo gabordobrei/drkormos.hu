@@ -1,6 +1,5 @@
 'use client';
 
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import { ContactFormAction } from '@/actions/ContactFormAction';
 import { useRef } from 'react';
 
@@ -9,8 +8,8 @@ export function ContactForm() {
 
   return (
     <div className="relative isolate bg-white">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-        <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 py-20 lg:grid-cols-2">
+        <div className="relative px-6 sm:pt-32 lg:static lg:px-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <div
               className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -26,44 +25,17 @@ export function ContactForm() {
             </div>
 
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Kapcsolat</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Amennyiben jogi segítségre van szüksége, várom mielőbbi megkeresését a megadott elérhetőségeken!
-            </p>
-            <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
-              <div className="flex gap-x-4">
-                <dt className="flex-none">
-                  <span className="sr-only">Address</span>
-                  <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
-                </dt>
-                <dd>
-                  Váci út 28. félem. 2.,
-                  <br />
-                  Budapest, 1132
-                </dd>
-              </div>
-              <div className="flex gap-x-4">
-                <dt className="flex-none">
-                  <span className="sr-only">Mobil</span>
-                  <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
-                </dt>
-                <dd>
-                  <a className="hover:text-gray-900" href="tel:+36 30 830 6832">
-                    +36 30 830 6832
-                  </a>
-                </dd>
-              </div>
-              <div className="flex gap-x-4">
-                <dt className="flex-none">
-                  <span className="sr-only">Email</span>
-                  <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
-                </dt>
-                <dd>
-                  <a className="hover:text-gray-900" href="mailto:info@drkormos.hu">
-                    info@drkormos.hu
-                  </a>
-                </dd>
-              </div>
-            </dl>
+
+            <div className="mt-6 space-y-8 text-lg leading-8 text-gray-600">
+              <p>
+                Jogi tanácsot adni, illetve az ügyben felelősséggel nyilatkozni kizárólag az eset összes körülményének
+                megismerését követően lehet. Erre tekintettel telefonon csak korlátozottan áll módomban jogi tanácsadást
+                nyújtani. Tisztelettel várom azonban irodámban, ahol nyugodt körülmények között beszélhetjük át a jogi
+                probléma és a megoldás részleteit.
+              </p>
+
+              <p>Személyes – akár online – konzultációhoz telefonon vagy e-mail útján tud időpontot kérni.</p>
+            </div>
           </div>
         </div>
 
@@ -73,7 +45,7 @@ export function ContactForm() {
             await ContactFormAction(formData);
             ref.current?.reset();
           }}
-          className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+          className="px-6 sm:pt-32 lg:px-8"
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
