@@ -48,6 +48,8 @@ function Hero() {
             src="/profile-square.jpg"
             alt="Dr. Kormos Zsuzsanna"
             className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover brightness-125 sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+            width={1363}
+            height={1365}
           />
         </div>
       </div>
