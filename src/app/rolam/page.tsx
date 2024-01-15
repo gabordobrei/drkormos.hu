@@ -1,6 +1,8 @@
 import Header from '@/app/(components)/Header';
 import Footer from '@/app/(components)/Footer';
 import Image from 'next/image';
+import { testimonials } from '@/Content';
+import { ReactElement } from 'react';
 
 export const runtime = 'edge';
 
@@ -56,105 +58,16 @@ function Hero() {
 }
 
 function Testimonies() {
-  const testimonials = [
-    {
-      body: (
-        <p>
-          „Zsuzsanna segített már több ingatlan adásvételünknél is, nagyon meg vagyunk vele elégedve. Mindig gyorsan és
-          precízen dolgozik, több rizikós helyzetet kerültünk már el amiatt, mert körültekintően és alaposan dolgozott.
-          Azoknak ajánlom, akiknek nincs idejük odafigyelni minden apróságra, Zsuzsanna segít mindenben.”
-        </p>
-      ),
-      author: {
-        name: 'D. Gábor'
-      }
-    },
-    {
-      body: (
-        <>
-          <p>
-            „A saját társasházi lakásunk vásárlásakor találkoztunk, mint az eladó által delegált ügyvéd. Annak ellenére,
-            hogy az egyszerű adásvétel helyett egy hitellel és CSOK-kal támogatott, az egyszerű lakásvásárló által
-            nehezen vehető akadályokat kellett leküzdeni a pénzintézetekkel. Mindez Önnel sikerült!
-          </p>
-          <br />
-          <p>
-            Az Ön által írt szerződéseket a pénzintézetek is elfogadták, és a több fizetési ütemet és feltételt
-            tartalmazó ügylet sikeresen lezárult mindenki megelégedettségére. A társasházi jogi útvesztőkben is gondosan
-            és hozzáértéssel járt el.”
-          </p>
-        </>
-      ),
-      author: {
-        name: 'R. Gábor'
-      }
-    },
-    {
-      body: (
-        <>
-          <p>
-            „Nagyon meg vagyok elégedve munkájával, minden jogi kérdésben teljeskörű választ kaptam. Az adott ügy minden
-            részletére odafigyelt, és maximálisan az érdekeinket képviselte. Ezek a tulajdonságok rendkívül fontosak, ha
-            egy perben azt szeretnénk, hogy pontosan és korrekten legyen az érdekünk képviselve.
-          </p>
-          <p>Csak ajánlani tudom a munkáját!”</p>
-        </>
-      ),
-      author: {
-        name: 'V. Attila'
-      }
-    },
-    {
-      body: (
-        <>
-          <p>„Zsuzsannával két alkalommal is szerencsém volt együtt dolgozni, lakásvásárlás okán.</p>
-          <p>
-            Nagyon meg voltam elégedve, mert bármi jogi bizonytalanság esetén nyugodt szívvel fordulhattam Hozzá, aki
-            mindig alaposan, érthetően és türelmesen elmagyarázta a helyzetet, felhívva a figyelmem az esetleges
-            rizikókra, ugyanakkor biztos megoldása is volt a kérdéses jogi helyzetekre.”
-          </p>
-        </>
-      ),
-      author: {
-        name: 'V. Virág'
-      }
-    },
-    {
-      body: (
-        <p>
-          „Kiváló felkészültség és precizitás jellemzi az Ügyvédnő munkáját. Bátran ajánlom mindenkinek, aki biztos
-          kezekben akarja tudni a saját ügyét!”
-        </p>
-      ),
-      author: {
-        name: 'B. Petra'
-      }
-    },
-    {
-      body: (
-        <>
-          <p>
-            „Régóta ismerem Zsuzsannát, így nem volt kérdés, hogy Őt kérjük fel ügyvédünknek ingatlan vétel okán. Kb. 3
-            évig tartott, míg megtaláltuk az igazit és ez idő alatt sok-sok alkalommal rugalmasan, türelmesen, profi
-            szakértelemmel állt rendelkezésünkre. Végül 2021 nyarán sikerült beleszeretnünk a létező legproblémásabb
-            &quot;családi házba&quot;.
-          </p>
-          <p>
-            Tájékoztatott minket, hogy hosszú, bonyolult, de nem lehetetlen menet lesz. Mindig minden lépést alaposan
-            átbeszéltünk, de sokszor kemény és határozott fellépésre volt szükség. Zsuzsannának hála 1 évvel később
-            rendezett okiratokkal, tehermentes ház adásvételi szerződését írtuk alá és vehettük át a kulcsokat.
-          </p>
-          <p>
-            Szívből ajánljuk Zsuzsanna munkáját férjemmel azóta is minden rokonunknak, ismerősünknek, kollégánknak!
-            Ezúton is köszönjük megbízható, becsületes, profi munkádat!”
-          </p>
-        </>
-      ),
-      author: {
-        name: 'F-Sz. Noémi'
-      }
+  function content(testimonial: { body: string[]; author: string }) {
+    const elements: ReactElement[] = [];
+    for (let i = 0; i < testimonial.body.length; i++) {
+      elements.push(<p key={`${testimonial.author}-p-${i}`}>{testimonial.body[i]}</p>);
+      elements.push(<br key={i}/>);
     }
-  ];
+
+    return elements.slice(0, -1);
+  }
+
   return (
     <div className="bg-white pt-20 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -166,18 +79,20 @@ function Testimonies() {
         </div>
         <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
           <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
-            {testimonials.map(testimonial => (
-              <div key={testimonial.author.name} className="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure className="rounded-2xl bg-gray-50 p-8 text-sm leading-6">
-                  <blockquote className="text-gray-900">{testimonial.body}</blockquote>
-                  <figcaption className="mt-6 flex items-center gap-x-4">
-                    <div>
-                      <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            ))}
+            {testimonials.map(testimonial => {
+              return (
+                <div key={testimonial.author} className="pt-8 sm:inline-block sm:w-full sm:px-4">
+                  <figure className="rounded-2xl from-gray-50 to-transparent bg-gradient-to-b p-8 text-sm leading-6">
+                    <blockquote className="text-gray-900">{content(testimonial)}</blockquote>
+                    <figcaption className="mt-6 flex items-center gap-x-4">
+                      <div>
+                        <div className="font-semibold text-gray-900">{testimonial.author}</div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
