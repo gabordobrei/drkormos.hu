@@ -30,7 +30,6 @@ function Map() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 py-20 lg:grid-cols-2">
         <div className="relative px-6 sm:pt-32 lg:static lg:px-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Elérhetőségek</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Amennyiben jogi segítségre van szüksége, várom mielőbbi megkeresését a megadott elérhetőségeken!

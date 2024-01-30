@@ -5,6 +5,6 @@ const nextConfig = {
       allowedOrigins: ['drkormos-hu.pages.dev']
     }
   }
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
