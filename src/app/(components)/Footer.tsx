@@ -32,18 +32,19 @@ export default function Footer() {
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-        <div className="mt-10 flex justify-center space-x-10">
+        <div className="mt-10 grid gap-2 sm:grid-cols-2 md:grid-cols-4">
           {navigation.contact.map(it => (
-            <a
-              key={it.name}
-              title={it.name + ': ' + it.link.title}
-              href={it.link.href}
-              className="flex flex-col items-center text-gray-400 hover:text-gray-500"
-            >
-              <span className="sr-only">{it.name}</span>
-              <it.icon className="h-6 w-5 text-gray-400 group-hover:text-gray-600" aria-hidden="true" />
-              <span className="text-xs leading-6 text-gray-600 group-hover:text-gray-900">{it.link.title}</span>
-            </a>
+            <div key={it.name} className="flex justify-center text-center">
+              <a
+                title={it.name + ': ' + it.link.title}
+                href={it.link.href}
+                className="flex flex-col items-center text-gray-400 hover:text-gray-500"
+              >
+                <span className="sr-only">{it.name}</span>
+                <it.icon className="h-6 w-5 text-gray-400 group-hover:text-gray-600" aria-hidden="true" />
+                <span className="text-xs leading-6 text-gray-600 group-hover:text-gray-900">{it.link.title}</span>
+              </a>
+            </div>
           ))}
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8">
