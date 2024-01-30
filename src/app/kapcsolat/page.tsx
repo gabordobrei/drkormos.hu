@@ -1,8 +1,7 @@
 import Header from '@/app/(components)/Header';
 import Footer from '@/app/(components)/Footer';
-import Image from 'next/image';
 import { ContactForm } from '@/app/kapcsolat/(components)/ContactForm';
-import { ClockIcon, BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
+import { BuildingOffice2Icon, ClockIcon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 export const runtime = 'edge';
 
@@ -12,11 +11,14 @@ export default function About() {
       <Header />
 
       <main className="isolate">
-        <Hero />
-
-        <Map />
+        <div
+          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 hidden w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 sm:block lg:-mr-96"
+          aria-hidden="true"
+        />
 
         <ContactForm />
+
+        <Map />
 
         <Footer />
       </main>
@@ -83,51 +85,16 @@ function Map() {
           </div>
         </div>
 
-        <iframe
-          width="600"
-          height="450"
-          className="border-0 px-6 sm:pt-32 lg:px-8"
-          loading="lazy"
-          allowFullScreen
-          referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAuwJk64hqOKNbVjf2Zx7AbPiEMofqUAuY&q=Dr.+Kormos+Zsuzsanna"
-        ></iframe>
-      </div>
-    </div>
-  );
-}
-
-function Hero() {
-  return (
-    <section className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
-      <div
-        className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
-        aria-hidden="true"
-      />
-      <div className="mx-auto max-w-7xl px-6 pt-32 sm:pt-40 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-          <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-            Dr. Kormos Zsuzsanna ügyvéd
-          </h1>
-          <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-            <p className="text-lg leading-8 text-gray-600">
-              2012-ben szereztem meg diplomámat a Pázmány Péter Katolikus Egyetem Jog- és Államtudományi Karán. Több,
-              mint tíz éve dolgozom ügyvédi irodában, illetve 2017. óta egyéni ügyvédként.
-              <br />
-              Ha hozzáértő, lelkiismeretes, megbízható és munkájára is igényes ügyvédre van szüksége, forduljon hozzám
-              bizalommal!
-            </p>
-          </div>
-          <Image
-            src="/profile-square.jpg"
-            alt="Dr. Kormos Zsuzsanna"
-            className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover brightness-125 sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
-            width={1363}
-            height={1365}
+        <div className="mx-auto w-full lg:mr-0">
+          <iframe
+            className="aspect-[4/3] h-full w-full border-0 px-6 sm:pt-32 lg:px-8"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAuwJk64hqOKNbVjf2Zx7AbPiEMofqUAuY&q=Dr.+Kormos+Zsuzsanna"
           />
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
-    </section>
+    </div>
   );
 }
