@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Logo from '@/app/(components)/Logo';
+import Logo, { LogoWithTextHorizontal } from '@/app/(components)/Logo';
 import Link from 'next/link';
 
 // TODO: href
@@ -19,10 +19,12 @@ export default function Header() {
   return (
     <header className="absolute inset-x-0 top-0 z-50">
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-8 p-6 lg:px-8" aria-label="Global">
+        <div className="sm:hidden"></div>
         <div className="flex">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">dr. Kormos Zsuzsanna</span>
-            <Logo className="h-12 w-auto" />
+            <LogoWithTextHorizontal className="hidden h-12 w-auto sm:block" />
+            <Logo className="h-16 w-auto sm:hidden" />
           </Link>
         </div>
         <div className="flex lg:hidden">
