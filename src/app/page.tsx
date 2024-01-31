@@ -70,24 +70,24 @@ function Hero() {
 function Szakteruletek() {
   const features = [
     {
-      name: 'Ingatlanjog',
+      name: 'Ingatlan jog',
       description:
         'Kiemelten foglalkozom ingatlanjoggal, azaz az ingatlanokhoz kapcsolódó jogi feladatok ellátásával. Ha ingatlant szerezne, vagy saját ingatlanvagyonáról rendelkezne, esetleg vitába került a tulajdonjogot vagy a használatot illetően, szüksége lesz ügyvédi segítségre.',
-      href: '/szakteruletek',
+      href: '/szakteruletek#ingatlan-jog',
       icon: HomeModernIcon
     },
     {
       name: 'Öröklési jog',
       description:
         'Egyszer mindenki életében eljön az az idő, amikor elveszít valakit. Ilyenkor a veszteség feldolgozása is rendkívül nehéz feladat, nem, hogy az örökléssel kapcsolatos jogi kérdésekben való tisztánlátás. Amikor pedig valaki saját vagyonának sorsát szeretné meghatározni halála esetére, legjobb, ha ezt előre – ügyvédi közreműködéssel – teszi.',
-      href: '/szakteruletek',
+      href: '/szakteruletek#oroklesi-jog',
       icon: UsersIcon
     },
     {
       name: 'Családi jog',
       description:
         'Mai világunkban sajnos egyre kevesebb esetben köttetnek „holtomiglan-holtodiglan” házasságok. Sok kapcsolat vélt vagy valós sérelmek miatt véglegesen és helyrehozhatatlanul megromlik (a házasság válással végződik). Ez különösen akkor nagyon megterhelő érzelmileg, ha gyermekek is érintettek az ügyben.',
-      href: '/szakteruletek',
+      href: '/szakteruletek#csaladi-jog',
       icon: UserGroupIcon
     }
   ];
