@@ -6,10 +6,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Logo, { LogoWithTextHorizontal } from '@/app/(components)/Logo';
 import Link from 'next/link';
 
-// TODO: href
 const navigation = [
   { name: 'Rólam', href: '/rolam' },
-  { name: 'Szakterületek', href: '/rolam' },
+  { name: 'Szakterületek', href: '/szakteruletek' },
   { name: 'Kapcsolat', href: '/kapcsolat' }
 ];
 
