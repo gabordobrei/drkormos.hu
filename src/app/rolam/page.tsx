@@ -24,9 +24,9 @@ export default function About() {
 
 function Hero() {
   return (
-    <section className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
+    <section className="relative isolate overflow-hidden bg-gradient-to-b from-cyan-100/20 pt-14">
       <div
-        className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
+        className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 lg:-mr-96"
         aria-hidden="true"
       />
       <div className="mx-auto max-w-7xl px-6 pt-32 sm:pt-40 lg:px-8">
@@ -72,7 +72,7 @@ function Testimonies() {
     <div className="bg-white pt-20 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
-          <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Rólam mondták</h2>
+          <h2 className="text-lg font-semibold leading-8 tracking-tight text-cyan-600">Rólam mondták</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Rengeteg elégedett ügyféllel dolgoztam együtt
           </p>

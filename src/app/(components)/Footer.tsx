@@ -38,11 +38,11 @@ export default function Footer() {
               <a
                 title={it.name + ': ' + it.link.title}
                 href={it.link.href}
-                className="flex flex-col items-center text-gray-400 hover:text-gray-500"
+                className="group flex flex-col items-center text-gray-400"
               >
                 <span className="sr-only">{it.name}</span>
-                <it.icon className="h-6 w-5 text-gray-400 group-hover:text-gray-600" aria-hidden="true" />
-                <span className="text-xs leading-6 text-gray-600 group-hover:text-gray-900">{it.link.title}</span>
+                <it.icon className="h-6 w-5 text-gray-400 group-hover:text-cyan-600" aria-hidden="true" />
+                <span className="text-xs leading-6 text-gray-600 group-hover:text-cyan-600">{it.link.title}</span>
               </a>
             </div>
           ))}

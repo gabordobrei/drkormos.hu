@@ -12,7 +12,7 @@ export default function About() {
 
       <main className="isolate">
         <div
-          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 hidden w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 sm:block lg:-mr-96"
+          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 hidden w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 sm:block lg:-mr-96"
           aria-hidden="true"
         />
 
