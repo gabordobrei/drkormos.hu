@@ -43,7 +43,7 @@ function Ingatlanjog() {
           </div>
           <div>
             <div className="prose lg:max-w-lg">
-              <p className="font-semibold text-cyan-600">Ingatlanjog</p>
+              <h2 className="text-xl font-semibold text-cyan-600">Ingatlanjog</h2>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Mindenhol jó, de a legjobb a földhivatalnál
               </h1>
@@ -95,7 +95,7 @@ function Oroklesijog() {
         <div className="absolute bottom-0 left-3/4 top-0 hidden w-screen bg-gray-50 lg:block" />
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
-            <h2 className="text-lg font-semibold text-cyan-600">Öröklési jog</h2>
+            <h2 className="text-xl font-semibold text-cyan-600">Öröklési jog</h2>
             <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
               Mert nem mindegy, hogy mi marad(t) hátra
             </h3>
@@ -190,7 +190,7 @@ function Csaladijog() {
           </div>
           <div>
             <div className="prose lg:max-w-lg">
-              <p className="font-semibold text-cyan-600">Családi jog</p>
+              <h2 className="text-xl font-semibold text-cyan-600">Családi jog</h2>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Mert jobb kapni, mint adni
               </h1>
