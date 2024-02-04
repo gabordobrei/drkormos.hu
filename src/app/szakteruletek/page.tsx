@@ -16,7 +16,7 @@ export default function About() {
           aria-hidden="true"
         />
 
-        <div className="mt-20">
+        <div className="my-20">
           <Ingatlanjog />
           <Oroklesijog />
           <Csaladijog />
@@ -158,7 +158,7 @@ function Oroklesijog() {
               </p>
             </div>
             <div className="prose prose-cyan mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
-              <p>Öröklési és hagyatéki ügyekben az alábbi feladatokat látom el különösen:</p>
+              <p className="prose-lg">Öröklési és hagyatéki ügyekben az alábbi feladatokat látom el különösen:</p>
 
               <ul role="list">
                 <li>
@@ -203,13 +203,13 @@ function Csaladijog() {
                 Mert jobb kapni, mint adni
               </h1>
               <div className="max-w-xl text-gray-500">
-                <p className="mt-6">
+                <p className="prose-lg mt-6">
                   A családi jog területén fokozottan érvényesül az az alapelv, hogy a legjobb megoldás a felek
                   kompromisszumon alapuló megállapodása, mely elsődlegesen hivatott szabályozni a felek kapcsolatát,
                   illetve rendezni az ún. járulékos kérdéseket (szülői felügyelet, gyermektartás, kapcsolattartás,
                   lakáshasználat, házastársi tartás).
                 </p>
-                <p className="mt-8">Miben segíthetek?</p>
+                <p className="prose-lg mt-8">Miben segíthetek?</p>
                 <ul role="list">
                   <li>járulékos kérdésekről szóló megállapodás,</li>
                   <li>házassági vagyonjogi szerződés,</li>

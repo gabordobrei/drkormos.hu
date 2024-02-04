@@ -48,8 +48,8 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8">
-          <p className="text-xs leading-5 text-gray-500">&copy; {new Date().getUTCFullYear()} dr. Kormos Zsuzsanna.</p>
-          <p className="text-[10px] leading-5 text-gray-500">
+          <p className="text-sm leading-5 text-gray-500">&copy; {new Date().getUTCFullYear()} dr. Kormos Zsuzsanna.</p>
+          <p className="text-sm leading-5 text-gray-500">
             Ezt a honlapot dr. Kormos Zsuzsanna ügyvéd (székhely: 1132 Budapest, Váci út 28. félem. 2., KASZ: 36063567),
             mint a Budapesti Ügyvédi Kamarába bejegyzett ügyvéd tartja fenn az ügyvédekre vonatkozó jogszabályok és
             belső szabályzatok szerint, melyek az ügyféljogokra vonatkozó tájékoztatással együtt a{' '}

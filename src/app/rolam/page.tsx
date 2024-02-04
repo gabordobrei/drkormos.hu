@@ -82,7 +82,7 @@ function Testimonies() {
             {testimonials.map(testimonial => {
               return (
                 <div key={testimonial.author} className="pt-8 sm:inline-block sm:w-full sm:px-4">
-                  <figure className="rounded-2xl bg-gradient-to-b from-gray-50 to-transparent p-8 text-sm leading-6">
+                  <figure className="rounded-2xl bg-gradient-to-b from-gray-50 to-transparent p-8 text-base leading-6">
                     <blockquote className="text-gray-900">{content(testimonial)}</blockquote>
                     <figcaption className="mt-6 flex items-center gap-x-4">
                       <div>
