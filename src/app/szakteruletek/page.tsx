@@ -30,66 +30,29 @@ export default function About() {
 
 function Ingatlanjog() {
   return (
-    <div id="ingatlan-jog" className="overflow-hidden bg-white px-6 py-16 lg:px-8 xl:py-36">
-      <div className="mx-auto max-w-max lg:max-w-7xl">
-        <div className="relative z-10 mb-8 md:mb-2 md:px-6">
-          <div className="max-w-prose text-base lg:max-w-none">
-            <h2 className="font-semibold leading-6 text-cyan-600">Ingatlanjog</h2>
-            <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-              Mindenhol jó, de a legjobb a földhivatalnál
-            </p>
+    <div id="ingatlan-jog" className="pt-24 sm:pt-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="lg:pr-4">
+            <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+              <Image
+                className="absolute inset-0 h-full w-full object-cover"
+                src="/keys.jpg"
+                alt="Kulcsok"
+                width={1000}
+                height={2000}
+                quality={100}
+              />
+            </div>
           </div>
-        </div>
-        <div className="relative">
-          <svg
-            className="absolute right-0 top-0 -mr-20 -mt-20 hidden md:block md:[overflow-anchor:none]"
-            width={404}
-            height={384}
-            fill="none"
-            viewBox="0 0 404 384"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="95e8f2de-6d30-4b7e-8159-f791729db21b"
-                x={0}
-                y={0}
-                width={20}
-                height={20}
-                patternUnits="userSpaceOnUse"
-              >
-                <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width={404} height={384} fill="url(#95e8f2de-6d30-4b7e-8159-f791729db21b)" />
-          </svg>
-          <svg
-            className="absolute bottom-0 left-0 -mb-20 -ml-20 hidden md:block md:[overflow-anchor:none]"
-            width={404}
-            height={384}
-            fill="none"
-            viewBox="0 0 404 384"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="7a00fe67-0343-4a3c-8e81-c145097a3ce0"
-                x={0}
-                y={0}
-                width={20}
-                height={20}
-                patternUnits="userSpaceOnUse"
-              >
-                <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width={404} height={384} fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
-          </svg>
-          <div className="relative md:bg-white md:p-6">
-            <div className="lg:grid lg:grid-cols-2 lg:gap-6">
-              <div className="prose prose-lg prose-cyan text-gray-500 lg:max-w-none">
-                <p>Miben segíthetek, ha ingatlanról van szó?</p>
-
+          <div>
+            <div className="prose lg:max-w-lg">
+              <p className="font-semibold text-cyan-600">Ingatlanjog</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Mindenhol jó, de a legjobb a földhivatalnál
+              </h1>
+              <div className="max-w-xl text-gray-500">
+                <p className="prose-lg">Miben segíthetek, ha ingatlanról van szó?</p>
                 <ul role="list">
                   <li>jogi tanácsadás</li>
                   <li>az ingatlan tulajdoni lapjának, térképmásolatának beszerzése</li>
@@ -116,34 +79,10 @@ function Ingatlanjog() {
                   <li>társasház alapítása és már működő társasház alapító okiratának módosítása</li>
                 </ul>
               </div>
-              <div className="prose prose-lg prose-cyan mt-6 text-gray-500 lg:mt-0">
-                <p>Jellemzően előforduló ügyletek:</p>
-
-                <ul role="list">
-                  <li>adásvételi (elő)szerződés és ehhez kapcsolódó okiratok</li>
-                  <li>ajándékozási szerződés</li>
-                  <li>csereszerződés</li>
-                  <li>ráépítési megállapodás, ráépítéssel történő tulajdonszerzés megállapítása iránti per</li>
-                  <li>haszonélvezeti jog alapítása, haszonélvezeti jogról lemondó nyilatkozat készítése</li>
-                  <li>jelzálogjog alapítása, törlése</li>
-                  <li>vételi jog alapítása, törlése</li>
-                  <li>közös tulajdonú ingatlanok használatának megosztásáról szóló megállapodások</li>
-                  <li>közös tulajdon megszüntetése</li>
-                  <li>elbirtoklással történő tulajdonszerzés megállapítása iránti per</li>
-                  <li>telekalakítási eljárások</li>
-                  <li>bérleti szerződés</li>
-                  <li>tartási- és életjáradéki szerződés</li>
-                  <li>vállalkozási szerződés</li>
-                  <li>társasházi alapító okirat, szervezeti- és működési szabályzat, házirend vagy ezek módosítása.</li>
-                </ul>
-              </div>
             </div>
-            <div className="mt-8 inline-flex rounded-md shadow">
-              <Link
-                href="/kapcsolat"
-                className="flex items-center justify-center rounded-md border border-transparent bg-cyan-600 px-5 py-3 text-base font-medium text-white hover:bg-cyan-700"
-              >
-                Vegye fel velem a kapcsolatot
+            <div className="mt-10 flex">
+              <Link href="/kapcsolat" className="text-base font-semibold leading-7 text-cyan-600 hover:text-cyan-700">
+                Vegye fel velem a kapcsolatot<span aria-hidden="true">&rarr;</span>
               </Link>
             </div>
           </div>
