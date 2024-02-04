@@ -54,7 +54,7 @@ export default function Footer() {
             Ezt a honlapot dr. Kormos Zsuzsanna ügyvéd (székhely: 1132 Budapest, Váci út 28. félem. 2., KASZ: 36063567),
             mint a Budapesti Ügyvédi Kamarába bejegyzett ügyvéd tartja fenn az ügyvédekre vonatkozó jogszabályok és
             belső szabályzatok szerint, melyek az ügyféljogokra vonatkozó tájékoztatással együtt a{' '}
-            <a href="https://www.mük.hu/" target="_blank" className="text-[#988155] hover:underline">
+            <a href="https://www.mük.hu/" target="_blank" className="text-[#988155] underline">
               www.mük.hu
             </a>{' '}
             honlapon megtalálhatóak. A honlapon információk, blogbejegyzések, cikkek nem minősülnek konkrét jogi
