@@ -210,7 +210,8 @@ function Csaladijog() {
                   <li>megegyezésen alapuló bontóperekben,</li>
                   <li>az Állam által megelőlegezett gyermektartásdíj iránti eljárásban jogi képviselet ellátása,</li>
                   <li>
-                    tartásdíjra vonatkozó végrehajtási eljárás kezdeményezése, illetve abban jogi képviselet ellátása.
+                    tartásdíj nem fizetése esetén végrehajtási eljárás kezdeményezése, illetve abban jogi képviselet
+                    ellátása.
                   </li>
                 </ul>
               </div>

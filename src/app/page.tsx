@@ -38,7 +38,7 @@ function Hero() {
             <div className="mx-auto max-w-2xl bg-gradient-to-r from-[#988155] via-[#eee7c8] via-[80%] to-[#988155] bg-clip-text text-transparent lg:mx-0 lg:max-w-xl">
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">Dr. Kormos Zsuzsanna ügyvéd</h1>
               <p className="mt-6 text-lg leading-8">
-                Évtizedes tapasztalattal, lelkiismeretes, megbízható és munkájára is igényes ügyvédként{' '}
+                Évtizedes tapasztalattal, Budapesten és környékén{' '}
                 <strong className="font-semibold">ingatlan-, öröklési és családi joggal</strong> foglalkozom.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
