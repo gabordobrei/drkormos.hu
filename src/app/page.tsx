@@ -90,11 +90,17 @@ function Szakteruletek() {
   return (
     <section className="bg-white">
       <div className="mx-auto my-20 max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Szakterületek</p>
+        <div className="mx-auto max-w-4xl text-justify">
+          <p className="mt-2 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Szakterületek</p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Ha hozzáértő, lelkiismeretes, megbízható és munkájára is igényes ügyvédre van szüksége, forduljon hozzám
-            bizalommal!
+            A polgári jogon belül különösen a szerződések jogával, azaz okiratokkal foglalkozom, de emellett peres és
+            peren kívüli jogi képviseletet is ellátok kiemelten az ingatlanjog, az öröklési jog és a családi jog
+            területén. Jogi segítséget nyújtok követeléskezeléssel összefüggésben is akár kötelezetti, akár jogosulti
+            oldalon (fizetési meghagyás, végrehajtási eljárás).
+          </p>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Amennyiben jogi segítségre van szüksége a fenti jogterületek valamelyikén, várom mielőbbi megkeresését a
+            megadott elérhetőségeken!
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

@@ -39,7 +39,19 @@ function Hero() {
             <p className="text-lg leading-8 text-gray-600">
               2012-ben szereztem meg diplomámat a Pázmány Péter Katolikus Egyetem Jog- és Államtudományi Karán. Több,
               mint tíz éve dolgozom ügyvédi irodában, illetve 2017. óta egyéni ügyvédként.
-              <br />
+            </p>
+            <p className="mt-4 text-lg leading-8 text-gray-600">
+              Munkám során igyekszem a lehető legnagyobb körültekintéssel eljárni. Vallom, hogy bár mindig a legjobb
+              forgatókönyvre számít az ember, mégis érdemes a legrosszabbra is felkészülni, lehetőség szerint azt
+              megelőzni. Ennek megfelelően feltárom az ügy releváns körülményeit, felhívom Ügyfeleim figyelmét az
+              esetleges kockázatokra és tájékoztatom Őket a megoldási lehetőségekről. Ügyfeleim érdekeinek védelmében
+              akár az eredeti elképzelésüktől eltérő jogi lépést is javaslok számukra.
+            </p>
+            <p className="mt-4 text-lg leading-8 text-gray-600">
+              Az érintett jogterületeken igyekszem magam folyamatosan továbbképezni, a tudásomat elmélyíteni, ezért
+              rendszeresen veszek részt képzéseken, előadásokon.
+            </p>
+            <p className="mt-4 text-lg leading-8 text-gray-600">
               Ha hozzáértő, lelkiismeretes, megbízható és munkájára is igényes ügyvédre van szüksége, forduljon hozzám
               bizalommal!
             </p>
