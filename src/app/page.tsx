@@ -3,7 +3,6 @@ import Footer from '@/app/(components)/Footer';
 import { HomeModernIcon, UserGroupIcon, UsersIcon } from '@heroicons/react/20/solid';
 import Link from 'next/link';
 import Image from 'next/image';
-import { testimonials } from '@/Content';
 
 export default function Landing() {
   return (
@@ -13,8 +12,6 @@ export default function Landing() {
       <main className="bg-white">
         <Hero />
         <Szakteruletek />
-
-        <Testimonies />
 
         <Footer />
       </main>
@@ -122,30 +119,6 @@ function Szakteruletek() {
             ))}
           </dl>
         </div>
-      </div>
-    </section>
-  );
-}
-
-function Testimonies() {
-  const arr = testimonials.filter(it => it.body.length < 3);
-  const testimony = arr[Math.floor(Math.random() * arr.length)];
-
-  return (
-    <section className="relative isolate mt-20 overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.sky.100),white)] opacity-20" />
-      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
-      <div className="mx-auto max-w-2xl lg:max-w-4xl">
-        <figure className="mt-10">
-          <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            {testimony.body}
-          </blockquote>
-          <figcaption className="mt-10">
-            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-gray-900">{testimony.author}</div>
-            </div>
-          </figcaption>
-        </figure>
       </div>
     </section>
   );
