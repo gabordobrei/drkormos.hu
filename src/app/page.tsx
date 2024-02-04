@@ -3,6 +3,7 @@ import Footer from '@/app/(components)/Footer';
 import { HomeModernIcon, UserGroupIcon, UsersIcon } from '@heroicons/react/20/solid';
 import Link from 'next/link';
 import Image from 'next/image';
+import profile from '@/../public/profile.jpg';
 
 export default function Landing() {
   return (
@@ -52,10 +53,9 @@ function Hero() {
       <div className="bg-cyan-900 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <Image
           className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-          src="/profile.jpg"
-          alt=""
-          width={1365}
-          height={2048}
+          src={profile}
+          alt="Dr. Kormos Zsuzsanna"
+          priority
         />
       </div>
     </section>

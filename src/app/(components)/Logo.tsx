@@ -1,17 +1,11 @@
 import Image from 'next/image';
+import logo from '@/../public/logo.svg';
+import logoTextHorizontal from '@/../public/logo-text--horizontal.svg';
 
 export default function Logo({ className }: { className?: string }) {
-  return <Image className={className ?? ''} src="/logo.svg" alt="Dr. Kormos Zsuzsanna" width={32} height={32} />;
+  return <Image className={className ?? ''} src={logo} alt="Dr. Kormos Zsuzsanna" />;
 }
 
 export function LogoWithTextHorizontal({ className }: { className?: string }) {
-  return (
-    <Image
-      className={className ?? ''}
-      src="/logo-text--horizontal.svg"
-      alt="Dr. Kormos Zsuzsanna"
-      width={32}
-      height={32}
-    />
-  );
+  return <Image className={className ?? ''} src={logoTextHorizontal} alt="Dr. Kormos Zsuzsanna" />;
 }

@@ -2,6 +2,9 @@ import Footer from '@/app/(components)/Footer';
 import Header from '@/app/(components)/Header';
 import Image from 'next/image';
 import Link from 'next/link';
+import keys from '@/../public/keys.jpg';
+import ring from '@/../public/ring.jpg';
+import dandelion from '@/../public/dandelion.jpg';
 
 export const runtime = 'edge';
 
@@ -35,14 +38,7 @@ function Ingatlanjog() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
             <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-              <Image
-                className="absolute inset-0 h-full w-full object-cover"
-                src="/keys.jpg"
-                alt="Kulcsok"
-                width={1000}
-                height={2000}
-                quality={100}
-              />
+              <Image className="absolute inset-0 h-full w-full object-cover" src={keys} alt="Kulcsok" quality={100} />
             </div>
           </div>
           <div>
@@ -101,7 +97,7 @@ function Oroklesijog() {
           <div>
             <h2 className="text-lg font-semibold text-cyan-600">Öröklési jog</h2>
             <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-              Mert mindig van egy „kedvenc” gyerek
+              Mert nem mindegy, hogy mi marad(t) hátra
             </h3>
           </div>
         </div>
@@ -134,10 +130,8 @@ function Oroklesijog() {
                 <div className="aspect-h-7 aspect-w-12 lg:aspect-none">
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="/dandelion.jpg"
+                    src={dandelion}
                     alt="Pitypang a reggeli harmatban"
-                    width={1184}
-                    height={1376}
                   />
                 </div>
               </figure>
@@ -188,10 +182,8 @@ function Csaladijog() {
             <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
-                src="/ring.jpg"
+                src={ring}
                 alt="Visszaadott gyűrű"
-                width={1000}
-                height={2000}
                 quality={100}
               />
             </div>
