@@ -33,13 +33,12 @@ export default function Footer() {
     <footer className="bg-cyan-900">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <div className="mt-10 flex flex-wrap justify-evenly gap-4">
-          {/* <div className="mt-10 grid gap-2 sm:grid-cols-2 md:grid-cols-4"> */}
           {navigation.contact.map(it => (
             <div key={it.name} className="flex justify-center text-center">
               <a
                 title={it.name + ': ' + it.link.title}
                 href={it.link.href}
-                className="group flex flex-col items-center text-[#c3b48e]"
+                className="group flex flex-col items-center text-[#eee7c8]"
               >
                 <span className="sr-only">{it.name}</span>
                 <it.icon className="h-8 w-7 group-hover:text-[#988155]" aria-hidden="true" />
@@ -49,8 +48,8 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8">
-          <p className="text-sm leading-5 text-[#c3b48e]">&copy; {new Date().getUTCFullYear()} dr. Kormos Zsuzsanna.</p>
-          <p className="text-sm leading-5 text-[#c3b48e]">
+          <p className="text-sm leading-5 text-[#eee7c8]">&copy; {new Date().getUTCFullYear()} dr. Kormos Zsuzsanna.</p>
+          <p className="text-sm leading-5 text-[#eee7c8]">
             Ezt a honlapot dr. Kormos Zsuzsanna ügyvéd (székhely: 1132 Budapest, Váci út 28. félem. 2., KASZ: 36063567),
             mint a Budapesti Ügyvédi Kamarába bejegyzett ügyvéd tartja fenn az ügyvédekre vonatkozó jogszabályok és
             belső szabályzatok szerint, melyek az ügyféljogokra vonatkozó tájékoztatással együtt a{' '}

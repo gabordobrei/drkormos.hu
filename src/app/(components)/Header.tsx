@@ -12,7 +12,7 @@ const navigation = [
   { name: 'Kapcsolat', href: '/kapcsolat' }
 ];
 
-export default function Header() {
+export default function Header({ light }: { light?: boolean } = { light: false }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -41,7 +41,9 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-[#988155] hover:text-[#c3b48e]"
+              className={`text-sm font-semibold leading-6 ${
+                light ? 'text-[#eee7c8] hover:text-[#988155]' : 'text-[#988155] hover:text-[#988155]/80'
+              }`}
             >
               {item.name}
             </Link>

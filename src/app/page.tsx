@@ -8,7 +8,7 @@ import profile from '@/../public/profile.jpg';
 export default function Landing() {
   return (
     <>
-      <Header />
+      <Header light />
 
       <main className="bg-white">
         <Hero />
@@ -42,7 +42,7 @@ function Hero() {
                 <strong className="font-semibold">ingatlan-, öröklési és családi joggal</strong> foglalkozom.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
-                <Link href="/rolam" className="text-sm font-semibold leading-6 hover:text-[#c3b48e]">
+                <Link href="/rolam" className="text-sm font-semibold leading-6 text-[#eee7c8] hover:text-[#988155]">
                   Bővebben <span aria-hidden="true">→</span>
                 </Link>
               </div>
