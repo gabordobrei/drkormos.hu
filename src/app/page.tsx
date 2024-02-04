@@ -21,11 +21,11 @@ export default function Landing() {
 
 function Hero() {
   return (
-    <section className="relative">
+    <section className="relative bg-cyan-900">
       <div className="mx-auto max-w-7xl">
         <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
           <svg
-            className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
+            className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-cyan-900 lg:block"
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
             aria-hidden="true"
@@ -34,16 +34,14 @@ function Hero() {
           </svg>
 
           <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
-            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Dr. Kormos Zsuzsanna ügyvéd
-              </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+            <div className="mx-auto max-w-2xl bg-gradient-to-r from-[#988155] via-[#eee7c8] via-[80%] to-[#988155] bg-clip-text text-transparent lg:mx-0 lg:max-w-xl">
+              <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">Dr. Kormos Zsuzsanna ügyvéd</h1>
+              <p className="mt-6 text-lg leading-8">
                 Évtizedes tapasztalattal, lelkiismeretes, megbízható és munkájára is igényes ügyvédként{' '}
                 <strong className="font-semibold">ingatlan-, öröklési és családi joggal</strong> foglalkozom.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
-                <Link href="/rolam" className="text-sm font-semibold leading-6 text-gray-900">
+                <Link href="/rolam" className="text-sm font-semibold leading-6 hover:text-[#c3b48e]">
                   Bővebben <span aria-hidden="true">→</span>
                 </Link>
               </div>
@@ -51,7 +49,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="bg-cyan-900 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <Image
           className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
           src="/profile.jpg"
@@ -91,7 +89,7 @@ function Szakteruletek() {
 
   return (
     <section className="bg-white">
-      <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto my-20 max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Szakterületek</p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
