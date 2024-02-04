@@ -2,8 +2,7 @@ export const testimonials = [
   {
     body: [
       '„Régóta ismerem Zsuzsannát, így nem volt kérdés, hogy Őt kérjük fel ügyvédünknek ingatlan vétel okán. Kb. 3 évig tartott, míg megtaláltuk az igazit és ez idő alatt sok-sok alkalommal rugalmasan, türelmesen, profi szakértelemmel állt rendelkezésünkre. Végül 2021 nyarán sikerült beleszeretnünk a létező legproblémásabb "családi házba".',
-      'Tájékoztatott minket, hogy hosszú, bonyolult, de nem lehetetlen menet lesz. Mindig minden lépést alaposan átbeszéltünk, de sokszor kemény és határozott fellépésre volt szükség. Zsuzsannának hála 1 évvel később rendezett okiratokkal, tehermentes ház adásvételi szerződését írtuk alá és vehettük át a kulcsokat.',
-      'Szívből ajánljuk Zsuzsanna munkáját férjemmel azóta is minden rokonunknak, ismerősünknek, kollégánknak! Ezúton is köszönjük megbízható, becsületes, profi munkádat!”'
+      'Tájékoztatott minket, hogy hosszú, bonyolult, de nem lehetetlen menet lesz. Mindig minden lépést alaposan átbeszéltünk, de sokszor kemény és határozott fellépésre volt szükség. Zsuzsannának hála 1 évvel később rendezett okiratokkal, tehermentes ház adásvételi szerződését írtuk alá és vehettük át a kulcsokat.'
     ],
     author: 'F-Sz. Noémi'
   },

@@ -43,7 +43,7 @@ function Hero() {
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Évtizedes tapasztalattal, lelkiismeretes, megbízható és munkájára is igényes ügyvédként{' '}
-                <strong className="font-semibold">ingatlan-, öröklési- és családjoggal</strong> foglalkozom.
+                <strong className="font-semibold">ingatlan-, öröklési és családi joggal</strong> foglalkozom.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <Link href="/rolam" className="text-sm font-semibold leading-6 text-gray-900">

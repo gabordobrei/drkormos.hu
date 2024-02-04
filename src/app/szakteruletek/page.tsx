@@ -146,7 +146,7 @@ function Oroklesijog() {
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
               <p className="text-lg text-gray-500">
-                A Polgári Törvénykönyv részletesen leírja, hogy ki, mit milyen arányban örökölhet az örökhagyó után. Ha
+                A Polgári Törvénykönyv részletesen leírja, hogy ki, mit, milyen arányban örökölhet az örökhagyó után. Ha
                 valaki halála esetére ettől eltérően szeretne rendelkezni, vagyis meghatározná, hogy hagyatékából ki és
                 milyen feltételekkel vagy éppen ki ne részesüljön, úgy azt megteheti pl. végrendelet formájában. A
                 részesedés tartási kötelezettség teljesítéséhez is köthető (öröklési szerződés), azonban az örökhagyó és
