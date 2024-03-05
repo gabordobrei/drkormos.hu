@@ -22,7 +22,7 @@ export default function Header({ light }: { light?: boolean } = { light: false }
         <div className="flex">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">dr. Kormos Zsuzsanna</span>
-            <LogoWithTextHorizontal className="hidden h-12 w-auto sm:block" />
+            <LogoWithTextHorizontal className="hidden h-14 w-auto sm:block" />
             <Logo className="h-16 w-auto sm:hidden" />
           </Link>
         </div>
@@ -41,7 +41,7 @@ export default function Header({ light }: { light?: boolean } = { light: false }
             <Link
               key={item.name}
               href={item.href}
-              className={`text-sm font-semibold leading-6 ${
+              className={`text-xl font-semibold leading-6 ${
                 light ? 'text-[#eee7c8] hover:text-[#988155]' : 'text-[#988155] hover:text-[#988155]/80'
               }`}
             >
