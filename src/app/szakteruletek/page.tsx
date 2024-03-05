@@ -45,34 +45,41 @@ function Ingatlanjog() {
             <div className="prose lg:max-w-lg">
               <h2 className="text-xl font-semibold text-cyan-600">Ingatlanjog</h2>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Mindenhol jó, de a legjobb a földhivatalnál
+                Sziklára építsünk, ne fövényre!
               </h1>
               <div className="max-w-xl text-gray-500">
                 <p className="prose-lg">Miben segíthetek, ha ingatlanról van szó?</p>
                 <ul role="list">
-                  <li>jogi tanácsadás</li>
-                  <li>az ingatlan tulajdoni lapjának, térképmásolatának beszerzése</li>
                   <li>
-                    az ingatlan jogi helyzetének és a jogszerzés esetleges akadályainak, illetve feltételeinek előzetes
-                    vizsgálata
+                    ingatlanra vonatkozó okiratok (pl.: <strong>adásvételi</strong>, <strong>ajándékozási</strong>,{' '}
+                    <strong>bérleti</strong>, <strong>tartási és életjáradéki</strong> szerződések, illetve egyéb
+                    nyilatkozatok) szerkesztése és ellenjegyzése – hitel- és/vagy CSOK-igénylés esetén a folyósító
+                    bankkal együttműködve
                   </li>
                   <li>
-                    ingatlanra vonatkozó okiratok (szerződések és egyéb nyilatkozatok) szerkesztése és ellenjegyzése –
-                    hitel- és/vagy CSOK-igénylés esetén a folyósító bankkal együttműködve
+                    az ingatlan jogi helyzetének és az esetleges kockázatoknak <strong>előzetes elemzése</strong>
                   </li>
                   <li>
-                    jogi képviselet a földhivatal és egyéb hatóságok előtt (pl. tulajdonjog-bejegyzés,
+                    <strong>jogi képviselet</strong> a földhivatal és egyéb hatóságok előtt (pl. tulajdonjog-bejegyzés,
                     épületfeltüntetés, -kiemelés, telekalakítás)
                   </li>
                   <li>
-                    más által készített okiratok véleményezése – az okiratszerkesztő kollégával együttműködve a
-                    szerződés tartalmának kialakítása
+                    adó- és illetékszabályokról tájékoztatás (<strong>NAV előtti képviselet</strong> - illetékkiszabás,
+                    -kedvezmény)
                   </li>
                   <li>
-                    ingatlan tehermentesítésében történő közreműködés (jelzálogjog, végrehajtási jog, vételi jog
-                    törlése)
+                    más által készített <strong>okiratok véleményezése</strong> – az okiratszerkesztő kollégával
+                    együttműködve a szerződés tartalmának kialakítása
                   </li>
-                  <li>társasház alapítása és már működő társasház alapító okiratának módosítása</li>
+                  <li>
+                    ingatlan tehermentesítésében történő közreműködés (<strong>jelzálogjog</strong>, végrehajtási jog,
+                    vételi jog törlése)
+                  </li>
+                  <li>
+                    <strong>társasház alapítása</strong> és már működő társasház alapító okiratának módosítása
+                  </li>
+                  <li>az ingatlan tulajdoni lapjának, térképmásolatának beszerzése</li>
+                  <li>jogi tanácsadás</li>
                 </ul>
               </div>
             </div>
@@ -147,7 +154,7 @@ function Oroklesijog() {
                 a leendő örökösök egymással is megállapodhatnak előre (lemondás). A törvény a végintézkedések tartalmára
                 és formájára nézve rendkívül szigorú szabályokat ír elő, melyek megsértése a végintézkedés
                 érvénytelenségét eredményezheti, mely esetben szintén a törvényes öröklés rendje érvényesül, érdemes
-                ezért előzetesen ügyvéddel konzultálni, illetve az okirat megszerkesztését ügyvédre bízni. Emellett egy
+                ezért előzetesen ügyvéddel konzultálni, illetve az okirat megszerkesztését ügyvédre bízni. Egy
                 örökösödési vita nagyon hosszúra nyúlhat. Ha lehetőség van rá, jobb megelőzni.
               </p>
             </div>
@@ -203,14 +210,14 @@ function Csaladijog() {
                 </p>
                 <p className="prose-lg mt-8">Miben segíthetek?</p>
                 <ul role="list">
-                  <li>járulékos kérdésekről szóló megállapodás,</li>
+                  <li>Járulékos kérdésekről szóló megállapodás,</li>
                   <li>házassági vagyonjogi szerződés,</li>
                   <li>házastársi közös vagyon megosztásáról szóló szerződés,</li>
-                  <li>élettársi közös vagyon megosztásáról szóló szerződés szerkesztése, ellenjegyzése</li>
-                  <li>megegyezésen alapuló bontóperekben,</li>
-                  <li>az Állam által megelőlegezett gyermektartásdíj iránti eljárásban jogi képviselet ellátása,</li>
+                  <li>élettársi közös vagyon megosztásáról szóló szerződés szerkesztése, ellenjegyzése.</li>
+                  <li>Megegyezésen alapuló bontóperekben,</li>
+                  <li>az Állam által megelőlegezett gyermektartásdíj iránti eljárásban jogi képviselet ellátása.</li>
                   <li>
-                    tartásdíj nem fizetése esetén végrehajtási eljárás kezdeményezése, illetve abban jogi képviselet
+                    Tartásdíj nem fizetése esetén végrehajtási eljárás kezdeményezése, illetve abban jogi képviselet
                     ellátása.
                   </li>
                 </ul>

@@ -56,10 +56,10 @@ export default function Footer() {
             <a href="https://www.mük.hu/" target="_blank" className="text-[#988155] underline">
               www.mük.hu
             </a>{' '}
-            honlapon megtalálhatóak. A honlapon információk, blogbejegyzések, cikkek nem minősülnek konkrét jogi
-            tanácsadásnak, ajánlattételnek vagy erre történő felhívásnak. Célja, hogy az érdeklődő tájékozódni tudjon
-            dr. Kormos Zsuzsanna ügyvéd szakterületeiről és szolgáltatásairól. A honlap tartalma szerzői jogi védelem
-            alatt áll, amelynek jogosultja dr. Kormos Zsuzsanna ügyvéd.
+            honlapon megtalálhatóak. A honlapon található információk, blogbejegyzések, cikkek nem minősülnek konkrét
+            jogi tanácsadásnak, ajánlattételnek vagy erre történő felhívásnak. Célja, hogy az érdeklődő tájékozódni
+            tudjon dr. Kormos Zsuzsanna ügyvéd szakterületeiről és szolgáltatásairól. A honlap tartalma szerzői jogi
+            védelem alatt áll, amelynek jogosultja dr. Kormos Zsuzsanna ügyvéd.
           </p>
         </div>
       </div>
