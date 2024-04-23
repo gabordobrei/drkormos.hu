@@ -8,9 +8,10 @@ export const testimonials = [
   },
   {
     body: [
-      '„Kiváló felkészültség és precizitás jellemzi az Ügyvédnő munkáját. Bátran ajánlom mindenkinek, aki biztos kezekben akarja tudni a saját ügyét!”'
+      '„Zsuzsannával két alkalommal is szerencsém volt együtt dolgozni, lakásvásárlás okán.',
+      'Nagyon meg voltam elégedve, mert bármi jogi bizonytalanság esetén nyugodt szívvel fordulhattam Hozzá, aki mindig alaposan, érthetően és türelmesen elmagyarázta a helyzetet, felhívva a figyelmem az esetleges rizikókra, ugyanakkor biztos megoldása is volt a kérdéses jogi helyzetekre.”'
     ],
-    author: 'B. Petra'
+    author: 'V. Virág'
   },
   {
     body: [
@@ -18,6 +19,12 @@ export const testimonials = [
       'Az Ön által írt szerződéseket a pénzintézetek is elfogadták, és a több fizetési ütemet és feltételt tartalmazó ügylet sikeresen lezárult mindenki megelégedettségére. A társasházi jogi útvesztőkben is gondosan és hozzáértéssel járt el.”'
     ],
     author: 'R. Gábor'
+  },
+  {
+    body: [
+      '„Többször is tapasztaltuk, hogy Zsuzsanna az ingatlanjog területén nagy tapasztalattal rendelkezik. Gyors, precíz és szakértelme miatt már több, mint 8 éve a családunk ügyvédje. Legyen szó adásvételről vagy bérbeadásról a legapróbb részletekre is odafigyelve dolgozik. Társasház alapításában is mellettünk állt végig. Szívből ajánlom az ügyvédnőt!”'
+    ],
+    author: 'Sz. Gabriella'
   },
   {
     body: [
@@ -35,9 +42,8 @@ export const testimonials = [
   },
   {
     body: [
-      '„Zsuzsannával két alkalommal is szerencsém volt együtt dolgozni, lakásvásárlás okán.',
-      'Nagyon meg voltam elégedve, mert bármi jogi bizonytalanság esetén nyugodt szívvel fordulhattam Hozzá, aki mindig alaposan, érthetően és türelmesen elmagyarázta a helyzetet, felhívva a figyelmem az esetleges rizikókra, ugyanakkor biztos megoldása is volt a kérdéses jogi helyzetekre.”'
+      '„Kiváló felkészültség és precizitás jellemzi az Ügyvédnő munkáját. Bátran ajánlom mindenkinek, aki biztos kezekben akarja tudni a saját ügyét!”'
     ],
-    author: 'V. Virág'
+    author: 'B. Petra'
   }
 ];
