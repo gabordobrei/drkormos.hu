@@ -10,7 +10,7 @@ export default function About() {
     <>
       <Header />
 
-      <main className="isolate">
+      <main className="isolate bg-gradient-to-r from-cyan-100/20 to-transparent">
         <div
           className="absolute inset-y-0 right-1/2 -z-10 -mr-96 hidden w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 sm:block lg:-mr-96"
           aria-hidden="true"

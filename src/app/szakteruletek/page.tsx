@@ -13,13 +13,13 @@ export default function About() {
     <>
       <Header />
 
-      <main className="isolate">
+      <main className="isolate bg-gradient-to-r from-cyan-100/20 to-transparent">
         <div
           className="absolute inset-y-0 right-1/2 -z-10 -mr-96 hidden w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 sm:block lg:-mr-96"
           aria-hidden="true"
         />
 
-        <div className="my-20">
+        <div className="mt-20">
           <Ingatlanjog />
           <Oroklesijog />
           <Csaladijog />
@@ -182,7 +182,7 @@ function Oroklesijog() {
 
 function Csaladijog() {
   return (
-    <div id="csaladi-jog" className="bg-white pt-24 sm:pt-32">
+    <div id="csaladi-jog" className="bg-white pt-24 pb-20 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
