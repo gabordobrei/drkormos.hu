@@ -37,10 +37,7 @@ function Hero() {
           <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
             <div className="mx-auto max-w-2xl bg-gradient-to-r from-[#988155] via-[#eee7c8] via-[80%] to-[#988155] bg-clip-text text-transparent lg:mx-0 lg:max-w-xl">
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">Dr. Kormos Zsuzsanna ügyvéd</h1>
-              <p className="mt-6 text-lg leading-8">
-                Évtizedes tapasztalattal, Budapesten és környékén{' '}
-                <strong className="font-semibold">ingatlan-, öröklési és családi joggal</strong> foglalkozom.
-              </p>
+              <p className="mt-6 text-lg leading-8">Teljes körű jogi megoldások hatékonyan, gyorsan, szakértelemmel.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <Link href="/rolam" className="text-sm font-semibold leading-6 text-[#eee7c8] hover:text-[#988155]">
                   Bővebben <span aria-hidden="true">→</span>
@@ -94,9 +91,9 @@ function Szakteruletek() {
           <p className="mt-2 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Szakterületek</p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             A polgári jogon belül különösen a szerződések jogával, azaz okiratokkal foglalkozom, de emellett peres és
-            peren kívüli jogi képviseletet is ellátok kiemelten az ingatlanjog, az öröklési jog és a családi jog
-            területén. Jogi segítséget nyújtok követeléskezeléssel összefüggésben is akár kötelezetti, akár jogosulti
-            oldalon (fizetési meghagyás, végrehajtási eljárás).
+            peren kívüli jogi képviseletet is ellátok Budapesten és környékén, kiemelten az ingatlanjog, az öröklési jog
+            és a családi jog területén. Jogi segítséget nyújtok követeléskezeléssel összefüggésben is akár kötelezetti,
+            akár jogosulti oldalon (fizetési meghagyás, végrehajtási eljárás).
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Amennyiben jogi segítségre van szüksége a fenti jogterületek valamelyikén, várom mielőbbi megkeresését a
