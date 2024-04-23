@@ -99,7 +99,7 @@ function Oroklesijog() {
   return (
     <div id="oroklesi-jog" className="overflow-hidden bg-white">
       <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="absolute bottom-0 left-3/4 top-0 hidden w-screen bg-gray-50 lg:block" />
+        <div className="absolute bottom-0 left-3/4 top-0 hidden w-screen bg-cyan-100/20 lg:block" />
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-xl font-semibold text-cyan-600">Öröklési jog</h2>
@@ -199,7 +199,7 @@ function Csaladijog() {
             <div className="prose lg:max-w-lg">
               <h2 className="text-xl font-semibold text-cyan-600">Családi jog</h2>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Mert jobb kapni, mint adni
+                Kölcsönös engedmények a béke érdekében
               </h1>
               <div className="max-w-xl text-gray-500">
                 <p className="prose-lg mt-6">
