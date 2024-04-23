@@ -41,7 +41,7 @@ function Map() {
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only">Address</span>
-                    <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                    <BuildingOffice2Icon className="h-7 w-6 text-cyan-600" aria-hidden="true" />
                   </dt>
                   <dd>
                     Váci út 28. félem. 2.,
@@ -50,7 +50,7 @@ function Map() {
                   </dd>
                   <dt className="flex-none">
                     <span className="sr-only">Address</span>
-                    <ClockIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                    <ClockIcon className="h-7 w-6 text-cyan-600" aria-hidden="true" />
                   </dt>
                   <dd>
                     H-P: 8-16
@@ -62,7 +62,7 @@ function Map() {
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Mobil</span>
-                  <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                  <PhoneIcon className="h-7 w-6 text-cyan-600" aria-hidden="true" />
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="tel:+36 30 830 6832">
@@ -73,7 +73,7 @@ function Map() {
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Email</span>
-                  <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                  <EnvelopeIcon className="h-7 w-6 text-cyan-600" aria-hidden="true" />
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="mailto:info@drkormos.hu">
