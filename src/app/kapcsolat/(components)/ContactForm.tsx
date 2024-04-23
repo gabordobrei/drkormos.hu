@@ -16,12 +16,17 @@ export function ContactForm() {
             <div className="mt-6 space-y-8 text-lg leading-8 text-gray-600">
               <p>
                 Jogi tanácsot adni, illetve az ügyben felelősséggel nyilatkozni kizárólag az eset összes körülményének
-                megismerését követően lehet. Erre tekintettel telefonon nem áll módomban jogi tanácsadást nyújtani.
-                Tisztelettel várom azonban irodámban, ahol nyugodt körülmények között beszélhetjük át a jogi probléma és
-                a megoldás részleteit.
+                megismerését követően lehet. Erre tekintettel telefonon nem áll módomban teljes körű jogi tanácsadást
+                nyújtani. Tisztelettel várom azonban irodámban, ahol nyugodt körülmények között beszélhetjük át a jogi
+                probléma és a megoldás részleteit.
               </p>
 
               <p>Személyes – akár online – konzultációhoz telefonon vagy e-mail útján tud időpontot kérni.</p>
+
+              <p>
+                A szerződéskötés ma már online is lehetséges ún. távazonosítás és távellenjegyzés útján. Jelezze előre,
+                ha valamelyik szerződő fél akadályoztatva van a személyes megjelenésben, és megtaláljuk a megoldást!
+              </p>
             </div>
           </div>
         </div>
