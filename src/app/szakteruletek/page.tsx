@@ -13,17 +13,10 @@ export default function About() {
     <>
       <Header />
 
-      <main className="isolate bg-gradient-to-r from-cyan-100/20 to-transparent">
-        <div
-          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 hidden w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 sm:block lg:-mr-96"
-          aria-hidden="true"
-        />
-
-        <div className="mt-20">
-          <Ingatlanjog />
-          <Oroklesijog />
-          <Csaladijog />
-        </div>
+      <main className="isolate">
+        <Ingatlanjog />
+        <Oroklesijog />
+        <Csaladijog />
 
         <Footer />
       </main>
@@ -33,11 +26,20 @@ export default function About() {
 
 function Ingatlanjog() {
   return (
-    <div id="ingatlan-jog" className="pt-24 sm:pt-32">
+    <section
+      id="ingatlan-jog"
+      className="relative isolate overflow-hidden bg-gradient-to-b from-cyan-100/20 pt-24 sm:pt-52"
+    >
+      <div
+        className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 lg:-mr-96"
+        aria-hidden="true"
+      />
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div
+          className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
-            <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+            <div
+              className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
               <Image className="absolute inset-0 h-full w-full object-cover" src={keys} alt="Kulcsok" quality={100} />
             </div>
           </div>
@@ -91,15 +93,15 @@ function Ingatlanjog() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
 function Oroklesijog() {
   return (
-    <div id="oroklesi-jog" className="overflow-hidden bg-white">
+    <section id="oroklesi-jog" className="overflow-hidden bg-white">
       <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="absolute bottom-0 left-3/4 top-0 hidden w-screen bg-cyan-100/20 lg:block" />
+        <div className="absolute bottom-0 left-3/4 top-0 hidden w-screen bg-gradient-to-t from-cyan-100/20 lg:block" />
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-xl font-semibold text-cyan-600">Öröklési jog</h2>
@@ -176,17 +178,19 @@ function Oroklesijog() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
 function Csaladijog() {
   return (
-    <div id="csaladi-jog" className="bg-white pt-24 pb-20 sm:pt-32">
+    <section id="csaladi-jog" className="pb-20 pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div
+          className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
-            <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+            <div
+              className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
                 src={ring}
@@ -231,6 +235,6 @@ function Csaladijog() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

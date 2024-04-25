@@ -7,7 +7,11 @@ export function ContactForm() {
   const ref = useRef<HTMLFormElement>(null);
 
   return (
-    <div className="relative isolate mt-32">
+    <section className="relative isolate overflow-hidden bg-gradient-to-b from-cyan-100/20 pt-32">
+        <div
+          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 lg:-mr-96"
+          aria-hidden="true"
+        />
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 sm:pt-32 lg:static lg:px-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -126,6 +130,6 @@ export function ContactForm() {
           </div>
         </form>
       </div>
-    </div>
+    </section>
   );
 }

@@ -10,12 +10,7 @@ export default function About() {
     <>
       <Header />
 
-      <main className="isolate bg-gradient-to-r from-cyan-100/20 to-transparent">
-        <div
-          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 hidden w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 sm:block lg:-mr-96"
-          aria-hidden="true"
-        />
-
+      <main className="isolate">
         <ContactForm />
 
         <Map />
@@ -28,7 +23,7 @@ export default function About() {
 
 function Map() {
   return (
-    <div className="relative isolate bg-white">
+    <section className="relative isolate bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 py-20 lg:grid-cols-2">
         <div className="relative px-6 sm:pt-32 lg:static lg:px-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -95,6 +90,6 @@ function Map() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
