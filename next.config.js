@@ -2,7 +2,7 @@
 const nextConfig = {
   experimental: {
     serverActions: {
-      allowedOrigins: ['drkormos-hu.pages.dev']
+      allowedOrigins: ['drkormos-hu.pages.dev', 'drkormos.hu']
     }
   }
 };
