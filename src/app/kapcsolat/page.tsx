@@ -3,8 +3,6 @@ import Footer from '@/app/(components)/Footer';
 import { ContactForm } from '@/app/kapcsolat/(components)/ContactForm';
 import { BuildingOffice2Icon, ClockIcon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
-export const runtime = 'edge';
-
 export default function About() {
   return (
     <>

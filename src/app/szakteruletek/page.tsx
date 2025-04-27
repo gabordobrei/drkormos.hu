@@ -6,8 +6,6 @@ import keys from '@/../public/keys.jpg';
 import ring from '@/../public/ring.jpg';
 import dandelion from '@/../public/dandelion.jpg';
 
-export const runtime = 'edge';
-
 export default function About() {
   return (
     <>

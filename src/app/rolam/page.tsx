@@ -5,8 +5,6 @@ import { testimonials } from '@/Content';
 import { ReactElement } from 'react';
 import profileSquare from '@/../public/profile-square.jpg';
 
-export const runtime = 'edge';
-
 export default function About() {
   return (
     <>
