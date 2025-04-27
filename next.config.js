@@ -4,8 +4,7 @@ const nextConfig = {
     serverActions: {
       allowedOrigins: ['drkormos-hu.pages.dev', 'drkormos.hu']
     }
-  },
-  outputFileTracing: false
+  }
 };
 
 module.exports = nextConfig;
